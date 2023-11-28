@@ -1,30 +1,68 @@
-import 'dotenv/config';
-import cors from 'cors';
-import express from 'express';
-import morgan from 'morgan';
-import api from './api';
-import * as middlewares from './middlewares';
+import { ApolloServer } from '@apollo/server';
+import { startStandaloneServer } from '@apollo/server/standalone';
+import gql from 'graphql-tag';
+import authors from './tables/author.json';
+import books from './tables/book.json';
+import genres from './tables/genre.json';
+import publishers from './tables/publisher.json';
 import { logger } from './utils/logger';
 
-const app = express();
+const typeDefs = gql`
+  type Book {
+    id: Int!
+    name: String!
+    description: String!
+    author: [Int!]!
+    publisher: [Int!]!
+    year: Int!
+    url: String!
+    genre: [Int!]!
+  }
 
-app.use(morgan('dev'));
+  type Author {
+    id: Int!
+    name: String!
+    bio: String!
+    url: String!
+  }
 
-app.use(cors());
-app.use(express.json());
+  type Publisher {
+    id: Int!
+    name: String!
+    url: String!
+  }
 
-app.get('/', (req, res) => {
-  res.json({
-    message: `🦄🌈✨👋🌎🌍🌏✨🌈🦄`,
-  });
+  type Genre {
+    id: Int!
+    name: String!
+  }
+
+  type Query {
+    books: [Book!]!
+    authors: [Author!]!
+    publishers: [Publisher!]!
+    genres: [Genre!]!
+  }
+`;
+
+const resolvers = {
+  Query: {
+    books: () => books,
+    authors: () => authors,
+    publishers: () => publishers,
+    genres: () => genres,
+  },
+};
+
+const server = new ApolloServer({
+  typeDefs,
+  resolvers,
 });
 
-app.use('/api', api);
-
-app.use(middlewares.notFound);
-app.use(middlewares.errorHandler);
-
-const port = process.env.PORT || 3000;
-app.listen(port, () => {
-  logger.info(`Listening: http://localhost:${port}`);
-});
+startStandaloneServer(server, {
+  listen: { port: 4000 },
+})
+  .then(({ url }) => {
+    logger.info(`🚀  Server ready at: ${url}`);
+  })
+  .catch(logger.error);
