@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "The Outsider",
+    "description": "Worth a read before or after you watch the HBO series. This is a haunting story that only gets darker and more devilish the deeper you go. Just when you think you’ve got it all figured out, the twists keep coming.",
+    "author": [4],
+    "publisher": [1],
+    "year": 2018,
+    "url": "https://www.barnesandnoble.com/w/the-outsider-stephen-king/1127208646?ean=9781501181016",
+    "genre": [16, 38, 36, 22, 6]
+  },
+  {
+    "id": 2,
+    "name": "The Body",
+    "description": "One of Stephen King’s rare shorter works, The Body is nonetheless captivating. As four young boys set off in search of the body of a missing friend, they grapple with the suffocating imobility of the factory town they live in. Rich in storytelling and further buoyed by meaningful themes of growing up and the promise (or lack thereof) of a future, this is just another must-read from King.",
+    "author": [4],
+    "publisher": [2],
+    "year": 2018,
+    "url": "https://www.barnesandnoble.com/w/body-stephen-king/1102542833?ean=9781982103538",
+    "genre": [16, 36]
+  },
+  {
+    "id": 3,
+    "name": "Holly",
+    "description": "The Stephen King fan favorite (and favorite of King himself) Holly Gibney is back, and now she’s the main character in her own feature story. Matched up against two Moriarty-esque professors, she has to continue to grow as a detective, as she has in all her other appearances.",
+    "author": [4],
+    "publisher": [3],
+    "year": 2023,
+    "url": "https://www.barnesandnoble.com/w/holly-stephen-king/1142967024?ean=9781668016138",
+    "genre": [38, 16, 22, 36, 6]
+  },
+  {
+    "id": 4,
+    "name": "Origin",
+    "description": "Dr. Langdon is once again wrapped up in a global-scale event that could have massive ramifications on the world’s religions. As he does in all his novels, Brown[‘s] extensive research on art, architecture, and history informs every page.",
+    "author": [5],
+    "publisher": [4],
+    "year": 2017,
+    "url": "https://www.barnesandnoble.com/w/origin-dan-brown/1124701994?ean=9780385542692",
+    "genre": [38, 22, 36, 2, 6]
+  },
+  {
+    "id": 5,
+    "name": "Digital Fortress",
+    "description": "Dan Brown set his razor-sharp research and storytelling skills on the most powerful intelligence organization on earth—the National Security Agency (NSA)—in this thrilling novel, Digital Fortress.",
+    "author": [5],
+    "publisher": [5],
+    "year": 2000,
+    "url": "https://www.barnesandnoble.com/w/digital-fortress-dan-brown/1116702349?ean=9780312263126",
+    "genre": [38, 22, 36, 28]
+  },
+  {
+    "id": 6,
+    "name": "Inferno",
+    "description": "Harvard professor of symbology Robert Langdon awakens in a hospital in the middle of the night. Disoriented and suffering from a head wound, he recalls nothing of the last thirty-six hours, including how he got there...or the origin of the macabre object that his doctors discover hidden in his belongings.",
+    "author": [5],
+    "publisher": [6],
+    "year": 2014,
+    "url": "https://www.barnesandnoble.com/w/inferno-dan-brown/1119739966?ean=9780385539852",
+    "genre": [38, 22, 36, 2]
+  },
+  {
+    "id": 7,
+    "name": "Game of Thrones (A Song of Ice and Fire #1) ",
+    "description": "Winter is coming. Such is the stern motto of House Stark, the northernmost of the fiefdoms that owe allegiance to King Robert Baratheon in far-off King’s Landing. There Eddard Stark of Winterfell rules in Robert’s name. There his family dwells in peace and comfort: his proud wife, Catelyn; his sons Robb, Brandon, and Rickon; his daughters Sansa and Arya; and his bastard son, Jon Snow. Far to the north, behind the towering Wall, lie savage Wildings and worse—unnatural things relegated to myth during the centuries-long summer, but proving all too real and all too deadly in the turning of the season.",
+    "author": [6],
+    "publisher": [1],
+    "year": 2011,
+    "url": "https://www.barnesandnoble.com/w/game-of-thrones-george-r-r-martin/1100041703?ean=9780553386790",
+    "genre": [13, 25]
+  },
+  {
+    "id": 8,
+    "name": "A Clash of Kings (A Song of Ice and Fire #2)",
+    "description": "In this thrilling sequel to A Game of Thrones, George R. R. Martin has created a work of unsurpassed vision, power, and imagination. A Clash of Kings transports us to a world of revelry and revenge, wizardry and warfare unlike any we have ever experienced.",
+    "author": [6],
+    "publisher": [2],
+    "year": 2003,
+    "url": "https://www.barnesandnoble.com/w/clash-of-kings-george-r-r-martin/1100179853?ean=9780553897852",
+    "genre": [13, 25]
+  },
+  {
+    "id": 9,
+    "name": "Fire & Blood: 300 Years Before A Game of Thrones",
+    "description": "For those A Song of Ice and Fire fans who pledged their allegiance to the Targaryens, delve deeper into the dragon family’s history and their conquering of Westeros in George Martin’s Fire and Blood. Learn about major events such as the Dance of the Dragons and gain more insight into memorable figures of the iconic Targaryen family.",
+    "author": [6],
+    "publisher": [3],
+    "year": 2020,
+    "url": "https://www.barnesandnoble.com/w/fire-blood-george-r-r-martin/1128905006?ean=9781524796303",
+    "genre": [13, 25]
+  },
+  {
+    "id": 10,
+    "name": "Iron Flame",
+    "description": "Violet may have survived her first year at Basgiath War College for dragon riders, but this epic adventure is just heating up. An electrifying follow-up to a brutally addictive fantasy.",
+    "author": [1],
+    "publisher": [4],
+    "year": 2023,
+    "url": "https://www.barnesandnoble.com/w/iron-flame-rebecca-yarros/1143445645?ean=9781649374172",
+    "genre": [13, 26]
+  },
+  {
+    "id": 11,
+    "name": "Fourth Wing",
+    "description": "A young scribe is thrust into an elite war college for dragon riders where the only rule is graduate or perish. An addictive fantasy with epic levels of spice and world-building.",
+    "author": [1],
+    "publisher": [5],
+    "year": 2023,
+    "url": "https://www.barnesandnoble.com/w/fourth-wing-rebecca-yarros/1142297916?ean=9781649374042",
+    "genre": [13, 26]
+  },
+  {
+    "id": 12,
+    "name": "Full Measures",
+    "description": "Full Measures is emotionally moving and full of hope and inspiration. The kind of story that rips out your heart and then puts it back in, better than it was before.",
+    "author": [1],
+    "publisher": [6],
+    "year": 2014,
+    "url": "https://www.barnesandnoble.com/w/full-measures-rebecca-yarros/1118164789?ean=9781622664344",
+    "genre": [13, 26]
+  },
+  {
+    "id": 13,
+    "name": "Resurrection Walk",
+    "description": "The Lincoln Lawyer series keeps giving, and No. 7 thrives with the help of the dream team of Connelly characters, Mickey Haller and Harry Bosch. This is a prime-time legal thriller.",
+    "author": [2],
+    "publisher": [1],
+    "year": 2023,
+    "url": "https://www.barnesandnoble.com/w/resurrection-walk-michael-connelly/1142972253?ean=9780316563789",
+    "genre": [28, 22, 6, 18]
+  },
+  {
+    "id": 14,
+    "name": "The Law of Innocence",
+    "description": "Lincoln Lawyer Mickey Haller is back on the job in this heart-stopping thriller from a renowned #1 New York Times bestselling author.",
+    "author": [2],
+    "publisher": [2],
+    "year": 2020,
+    "url": "https://www.barnesandnoble.com/w/the-law-of-innocence-michael-connelly/1136975802?ean=9780316498029",
+    "genre": [38, 22, 6, 18]
+  },
+  {
+    "id": 15,
+    "name": "The Concrete Blonde",
+    "description": "Detective Harry Bosch was sure he'd shot the serial killer responsible for a string of murders in LA . . . but now, a new crime makes him question his convictions.",
+    "author": [2],
+    "publisher": [1],
+    "year": 2002,
+    "url": "https://www.barnesandnoble.com/w/concrete-blonde-michael-connelly/1100305891?ean=9780759525795",
+    "genre": [38, 22, 6]
+  },
+  {
+    "id": 16,
+    "name": "The Exchange: After The Firm",
+    "description": "The Firm launched the rapid rise of John Grisham, master of the legal thriller. Now we follow up with the McDeeres — and the corporate intrigue and deadly secrets they can’t escape. If you’re looking for a great new read after binge-watching Suits, start here.",
+    "author": [3],
+    "publisher": [3],
+    "year": 2023,
+    "url": "https://www.barnesandnoble.com/w/the-exchange-john-grisham/1143270132?ean=9780385548953",
+    "genre": [38, 36, 18]
+  },
+  {
+    "id": 17,
+    "name": "The Firm",
+    "description": "From the master of legal thrillers, a page-turning classic of “suit-and-dagger suspense” (The New York Times): At the top of his class at Harvard Law, Mitch McDeere had his choice of the best firms in America. He made a deadly mistake.",
+    "author": [3],
+    "publisher": [1],
+    "year": 2010,
+    "url": "https://www.barnesandnoble.com/w/firm-john-grisham/1001870790?ean=9780307576149",
+    "genre": [38, 18]
+  },
+  {
+    "id": 18,
+    "name": "Sparring Partners",
+    "description": "John Grisham is the acknowledged master of the legal thriller. In his first collection of novellas, law is a common thread, but America’s favorite storyteller has several surprises in store.",
+    "author": [3],
+    "publisher": [4],
+    "year": 2022,
+    "url": "https://www.barnesandnoble.com/w/sparring-partners-john-grisham/1140919266?ean=9780385549332",
+    "genre": [38, 36, 18]
+  }
+]

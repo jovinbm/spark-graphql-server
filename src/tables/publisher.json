@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Entangled Publishing, LLC",
+    "url": "https://www.entangledpublishing.com"
+  },
+  {
+    "id": 2,
+    "name": "Little, Brown and Company",
+    "url": "https://www.hachettebookgroup.com/imprint/little-brown-and-company"
+  },
+  {
+    "id": 3,
+    "name": "Knopf Doubleday Publishing Group",
+    "url": "https://knopfdoubleday.com"
+  },
+  {
+    "id": 4,
+    "name": "Scribner",
+    "url": "https://www.simonandschusterpublishing.com/scribner"
+  },
+  {
+    "id": 5,
+    "name": "St. Martin's Publishing Group",
+    "url": "https://us.macmillan.com/stmartinspress"
+  },
+  {
+    "id": 6,
+    "name": "Random House Publishing Group",
+    "url": "https://www.randomhousebooks.com"
+  }
+]

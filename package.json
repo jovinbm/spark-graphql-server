@@ -1,0 +1,52 @@
+{
+  "name": "spark-graphql-server",
+  "version": "0.0.0",
+  "private": true,
+  "description": "A GraphQL server for BU Spark Tech Talk",
+  "keywords": [],
+  "main": "src/index.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/equityquotient/spark-graphql-server.git"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "eslint:lint": "eslint --config .eslintrc.js --ignore-path .eslintignore '*/**/*.{js,jsx,ts,tsx}' --max-warnings=0",
+    "eslint:fix": "eslint --config .eslintrc.js --ignore-path .eslintignore '*/**/*.{js,jsx,ts,tsx}' --fix",
+    "prettier:lint": "prettier --check --ignore-path .prettierignore \"**/*.{js,jsx,json,html,md,ts,tsx,css,sass,scss,yml,yaml}\"",
+    "prettier:fix": "prettier --write --ignore-path .prettierignore \"**/*.{js,jsx,json,html,md,ts,tsx,css,sass,scss,yml,yaml}\"",
+    "ts:check": "tsc --noEmit",
+    "lint": "yarn ts:check && yarn eslint:fix && yarn prettier:fix",
+    "prepare": "is-ci || husky install",
+    "postinstall": "yarn prepare"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "node-fetch": "2.6.7",
+    "pino": "^8.14.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/morgan": "^1.9.4",
+    "@types/node": "^20.2.3",
+    "@types/node-fetch": "^2.6.4",
+    "@typescript-eslint/eslint-plugin": "^6.12.0",
+    "@typescript-eslint/parser": "^6.12.0",
+    "eslint": "^8.54.0",
+    "eslint-config-alloy": "^5.1.2",
+    "husky": "^8.0.0",
+    "is-ci": "^3.0.1",
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.8",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
+  },
+  "engines": {
+    "node": "18"
+  }
+}

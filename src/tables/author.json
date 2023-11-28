@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Rebecca Yarros",
+    "bio": "Rebecca Yarros is the New York Times bestselling author of more than fifteen novels, with multiple starred Publishers Weekly reviews and a Kirkus Best Book of the Year. A second-generation army brat, Rebecca loves military heroes and has been blissfully married to hers for more than twenty years. She's the mother of six children, and she and her family live in Colorado with their stubborn English bulldogs, two feisty chinchillas, and a cat named Artemis, who rules them all.",
+    "url": "https://www.barnesandnoble.com/b/contributor/rebecca-yarros/_/N-2y2d"
+  },
+  {
+    "id": 2,
+    "name": "Michael Connelly",
+    "bio": "Michael Connelly is the author of more than 25 novels, including The Drop, The Black Box, The Burning Room, and The Gods of Guilt. His books, which include the Harry Bosch series and Lincoln Lawyer series, have sold more than 60 million copies worldwide. Connelly is a former newspaper reporter who has won numerous awards for his journalism and his novels and is the executive producer of the police procedural TV series Bosch.",
+    "url": "https://www.barnesandnoble.com/b/contributor/michael-connelly/_/N-2khj"
+  },
+  {
+    "id": 3,
+    "name": "John Grisham",
+    "bio": "John Grisham is an American writer and former attorney and politician, best known for his popular legal thrillers. Grisham's first novel, A Time to Kill, was written and published in 1989 while he served in the House of Representatives in Mississippi. Many of his books have been adapted into films and television shows, including his first best seller, The Firm. Grisham is a two-time winner of the Harper Lee Prize for Legal Fiction and was honored with the Library of Congress Creative Achievement Award for Fiction.",
+    "url": "https://www.barnesandnoble.com/b/contributor/john-grisham/_/N-2kcz"
+  },
+  {
+    "id": 4,
+    "name": "Stephen King",
+    "bio": "Stephen Edwin King is an American author of horror, supernatural fiction, suspense, crime, science-fiction, and fantasy novels. Called the \"King of Horror\", his books have sold more than 350 million copies as of 2006, and many have been adapted into films, television series, miniseries, and comic books. ",
+    "url": "https://www.barnesandnoble.com/b/stephen-king/_/N-1p75"
+  },
+  {
+    "id": 5,
+    "name": "Dan Brown",
+    "bio": "Famous for fusing symbols, codes, history, and art into thrilling fiction, Dan Brown is the author of The Da Vinci Code, one of the most widely read novels of all time, as well as these internationally bestselling books: Inferno, inspired by Dante's masterpiece, The Lost Symbol, Angels & Demons, Deception Point, and Digital Fortress.",
+    "url": "https://www.barnesandnoble.com/b/contributor/dan-brown/_/N-2k6p"
+  },
+  {
+    "id": 6,
+    "name": "George R. R. Martin",
+    "bio": "An American author and screenwriter, George R. R. Martin is best known for his epic fantasy series A Song of Ice and Fire. The bestselling series, which began with A Game of Thrones, inspired the popular HBO television series of the same name. The series will conclude with the forthcoming books The Winds of Winter and A Dream of Spring.",
+    "url": "https://www.barnesandnoble.com/b/contributor/george-r-r-martin/_/N-2k2e"
+  }
+]
