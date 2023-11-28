@@ -7,5 +7,6 @@ module.exports = {
   rules: {
     'max-params': 0,
     '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
+    'max-nested-callbacks': 0,
   },
 };
