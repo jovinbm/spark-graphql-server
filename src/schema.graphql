@@ -2,11 +2,11 @@ type Book {
   id: Int!
   name: String!
   description: String!
-  author: [Int!]!
-  publisher: [Int!]!
+  authors: [Author!]!
+  publishers: [Publisher!]!
   year: Int!
   url: String!
-  genre: [Int!]!
+  genres: [Genre!]!
 }
 
 type Author {
@@ -14,17 +14,26 @@ type Author {
   name: String!
   bio: String!
   url: String!
+  books: [Book!]!
+  publishers: [Publisher!]!
+  genres: [Genre!]!
 }
 
 type Publisher {
   id: Int!
   name: String!
   url: String!
+  books: [Book!]!
+  authors: [Author!]!
+  genres: [Genre!]!
 }
 
 type Genre {
   id: Int!
   name: String!
+  books: [Book!]!
+  authors: [Author!]!
+  publishers: [Publisher!]!
 }
 
 type Query {
