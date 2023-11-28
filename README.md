@@ -1,4 +1,4 @@
-# API
+# Server
 
 This app is built using Express JS.
 
