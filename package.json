@@ -2,7 +2,7 @@
   "name": "spark-graphql-server",
   "version": "0.0.0",
   "private": true,
-  "description": "A GraphQL server for BU Spark Tech Talk",
+  "description": "A server for BU Spark GraphQL Tech Talk",
   "keywords": [],
   "main": "src/index.ts",
   "repository": {
