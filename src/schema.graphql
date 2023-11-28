@@ -2,11 +2,11 @@ type Book {
   id: Int!
   name: String!
   description: String!
-  author: [Int!]!
-  publisher: [Int!]!
+  authors: [Int!]!
+  publishers: [Int!]!
   year: Int!
   url: String!
-  genre: [Int!]!
+  genres: [Int!]!
 }
 
 type Author {
