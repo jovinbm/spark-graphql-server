@@ -1,0 +1,35 @@
+type Book {
+  id: Int!
+  name: String!
+  description: String!
+  authors: [Int!]!
+  publishers: [Int!]!
+  year: Int!
+  url: String!
+  genres: [Int!]!
+}
+
+type Author {
+  id: Int!
+  name: String!
+  bio: String!
+  url: String!
+}
+
+type Publisher {
+  id: Int!
+  name: String!
+  url: String!
+}
+
+type Genre {
+  id: Int!
+  name: String!
+}
+
+type Query {
+  books: [Book!]!
+  authors: [Author!]!
+  publishers: [Publisher!]!
+  genres: [Genre!]!
+}

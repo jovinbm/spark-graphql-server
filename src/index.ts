@@ -1,30 +1,36 @@
 import 'dotenv/config';
-import cors from 'cors';
-import express from 'express';
-import morgan from 'morgan';
-import api from './api';
-import * as middlewares from './middlewares';
+import { ApolloServer } from '@apollo/server';
+import { startStandaloneServer } from '@apollo/server/standalone';
+import authors from './tables/author.json';
+import books from './tables/book.json';
+import genres from './tables/genre.json';
+import publishers from './tables/publisher.json';
 import { logger } from './utils/logger';
+import { readFileSync } from 'fs';
+import path from 'path';
 
-const app = express();
-
-app.use(morgan('dev'));
-
-app.use(cors());
-app.use(express.json());
-
-app.get('/', (req, res) => {
-  res.json({
-    message: `🦄🌈✨👋🌎🌍🌏✨🌈🦄`,
-  });
+const typeDefs = readFileSync(path.join(__dirname, './schema.graphql'), {
+  encoding: 'utf-8',
 });
 
-app.use('/api', api);
+const resolvers = {
+  Query: {
+    books: () => books,
+    authors: () => authors,
+    publishers: () => publishers,
+    genres: () => genres,
+  },
+};
 
-app.use(middlewares.notFound);
-app.use(middlewares.errorHandler);
-
-const port = process.env.PORT || 3000;
-app.listen(port, () => {
-  logger.info(`Listening: http://localhost:${port}`);
+const server = new ApolloServer({
+  typeDefs,
+  resolvers,
 });
+
+startStandaloneServer(server, {
+  listen: { port: 3000 },
+})
+  .then(({ url }) => {
+    logger.info(`🚀  Server ready at: ${url}`);
+  })
+  .catch(logger.error);
