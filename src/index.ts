@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import { ApolloServer } from '@apollo/server';
 import { startStandaloneServer } from '@apollo/server/standalone';
 import authors from './tables/author.json';
@@ -101,7 +102,7 @@ const server = new ApolloServer({
 });
 
 startStandaloneServer(server, {
-  listen: { port: 4000 },
+  listen: { port: 3000 },
 })
   .then(({ url }) => {
     logger.info(`🚀  Server ready at: ${url}`);
