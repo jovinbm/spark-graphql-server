@@ -8,6 +8,11 @@ import publishers from './tables/publisher.json';
 import { logger } from './utils/logger';
 import { readFileSync } from 'fs';
 import path from 'path';
+import OpenAI from 'openai';
+
+const openai = new OpenAI({
+  apiKey: process.env.OPENAPI_API_KEY,
+});
 
 const typeDefs = readFileSync(path.join(__dirname, './schema.graphql'), {
   encoding: 'utf-8',
@@ -35,6 +40,22 @@ const resolvers = {
       return book.genres.map((id: any) =>
         genres.find((genre) => genre.id === id)
       );
+    },
+    image: (book: any) => {
+      if (book.id > 3) {
+        return null;
+      }
+
+      return openai.images
+        .generate({
+          model: 'dall-e-2',
+          prompt: `A front book cover for the book called "${book.name}"`,
+        })
+        .then((result) => result.data[0].url)
+        .catch((error) => {
+          logger.error(error);
+          return null;
+        });
     },
   },
   Author: {
